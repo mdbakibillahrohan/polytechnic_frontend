@@ -1,0 +1,12 @@
+.body{
+  background: url(../../assets/images/bg_main.gif);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+}
+
+.box{
+  background-color: #fff;
+}

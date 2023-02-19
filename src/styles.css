@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(./assets/fonts/kalpurush/kalpurush.css);
+
+/* variable section  */
+:root{
+  /* --primary-color: #683091; */
+  --primary-color: #3B3B98;
+  /* --secondary-color: #eb2f06; */
+  --secondary-color: #f6b93b;
+  --black-color: #000;
+  --white-color: #fff;
+  --light-grey: #D3D3D3;
+  --light-black: #222f3e;
+}
+/* variable section  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Kalpurush', sans-serif;
+}
+
+
+/* here started the utilities classes */
+.primary-color{
+  color: var(--primary-color);
+}
+.bg-primary-color{
+  background-color: var(--primary-color);
+}
+/* here ended the utilities classes */
+
+/* here started the responsive code  */
+/* @media only screen and (min-width: 768px) {
+  .container{
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .container{
+    width: 80% !important;
+  }
+}*/
+/* @media only screen and (max-width: 1000px) {
+  .container{
+    width: 70% !important;
+  }
+} */

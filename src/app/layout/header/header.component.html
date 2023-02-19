@@ -1,0 +1,178 @@
+<header class="header">
+  <div class="top d-flex justify-content-between">
+    <div class="d-flex">
+      <a class="btn text-white" href="#">বাংলাদেশ জাতীয় তথ্য বাতায়ন</a>
+      <form class="d-flex">
+        <select class="form-select inline" aria-label="Defalit select example">
+          <option selected>অফিসের ধরণ</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <button class="btn text-white">Go</button>
+      </form>
+    </div>
+
+    <div class="d-flex">
+      <form class="d-flex">
+        <input type="text" class="form-control" placeholder="Search" />
+        <button class="btn btn-primary text-white">Search</button>
+        <button class="btn text-white">English</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- here started carousel  -->
+  <div class="carousel-section">
+    <div class="website-identity d-flex align-items-center">
+      <img src="../../../assets/images/logo.png" alt="logo" class="img-fluid" />
+      <h3 class="fw-bold ms-2 text-white polytechnic-name">
+        পলিটেকনিক ইন্সটিটিউট
+      </h3>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../../../assets/images/2020-12-27-20-57-eb9ad66e89678989160725dce4368138.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../../../assets//images/2020-12-27-21-00-570eb6297a0599b4a446f144abba870c.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../../../assets/images/2020-12-27-21-02-ddf29d5923e388dd081d2b3490e7d057.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- here ended carousel  -->
+
+  <!-- here started the navbar section  -->
+  <nav>
+    <div class="cs-nav-item"><a href="#">হ্যোম</a></div>
+    <div class="cs-nav-item">
+      <span>আমাদের সম্পর্কে</span>
+      <div class="submenu-bar about-us">
+        <div class="bar"></div>
+        <div class="row p-2">
+          <div class="col">
+            <app-submenu-single-block
+              [title]="aboutUs.aboutInstitute.title"
+              [items]="aboutUs.aboutInstitute.items"
+            ></app-submenu-single-block>
+          </div>
+          <div class="col">
+            <app-submenu-single-block
+              [title]="aboutUs.manPower.title"
+              [items]="aboutUs.manPower.items"
+            ></app-submenu-single-block>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs-nav-item">
+      <span>টেকনোলজি ও বিভাগ সমূহ</span>
+      <div class="submenu-bar technology">
+        <div class="bar"></div>
+        <div class="row p-2">
+          <div class="col-md-3">
+            <app-submenu-single-block
+              [title]="aboutUs.aboutInstitute.title"
+              [items]="aboutUs.aboutInstitute.items"
+            ></app-submenu-single-block>
+          </div>
+          <div class="col-md-3">
+            <app-submenu-single-block
+              [title]="aboutUs.manPower.title"
+              [items]="aboutUs.manPower.items"
+            ></app-submenu-single-block>
+          </div>
+          <div class="col-md-3">
+            <app-submenu-single-block
+              [title]="aboutUs.manPower.title"
+              [items]="aboutUs.manPower.items"
+            ></app-submenu-single-block>
+          </div>
+          <div class="col-md-3">
+            <app-submenu-single-block
+              [title]="aboutUs.manPower.title"
+              [items]="aboutUs.manPower.items"
+            ></app-submenu-single-block>
+          </div>
+          <div class="col-md-3">
+            <app-submenu-single-block
+              [title]="aboutUs.manPower.title"
+              [items]="aboutUs.manPower.items"
+            ></app-submenu-single-block>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs-nav-item">
+      <span>টিকা সংক্রান্ত সকল তথ্য</span>
+      <div class="submenu-bar">
+        <div class="bar"></div>
+        <div class="p-2">
+          <a href="#" class="d-block my-1"
+            >ছাত্রদের টিকা সংক্রান্ত তথ্য প্রদান ফর্ম</a
+          >
+          <a href="#" class="d-block my-1"
+            >ছাত্রদের টিকা সংক্রান্ত তথ্য প্রদান ফর্ম</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="cs-nav-item">
+      <span>অফিস আদেশ</span>
+      <div class="submenu-bar">
+        <div class="bar"></div>
+        <div class="p-2">
+          <a href="#" class="d-block my-1 w-100">বিভিন্ন আদেশ</a>
+        </div>
+      </div>
+    </div>
+    <div class="cs-nav-item"><a href="#">ডাউনলোড</a></div>
+    <div class="cs-nav-item">গ্যালারী</div>
+    <div class="cs-nav-item">যোগাযোগ</div>
+    <!-- <ul>
+      <li><a href="#">হ্যোম</a></li>
+      <li>আমাদের সম্পর্কে</li>
+      <li>টেকনোলজি ও বিভাগ সমূহ</li>
+      <li>টিকা সংক্রান্ত সকল তথ্য</li>
+      <li>অফিস আদেশ</li>
+      <li><a href="#">ডাউনলোড</a></li>
+      <li>গ্যালারী</li>
+      <li>যোগাযোগ</li>
+    </ul> -->
+  </nav>
+  <!-- here ended the navbar section  -->
+</header>
