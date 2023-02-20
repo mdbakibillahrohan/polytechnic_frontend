@@ -1,0 +1,13 @@
+.home-page-tile{
+  width: 100%;
+  background-color: var(--light-grey);
+  border-radius: 15px;
+}
+.home-page-tile ul{
+  list-style: outside;
+}
+
+.home-page-tile ul li a{
+  text-decoration: none;
+  color: var(--black-color);
+}

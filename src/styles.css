@@ -5,11 +5,12 @@
 :root{
   /* --primary-color: #683091; */
   --primary-color: #3B3B98;
-  /* --secondary-color: #eb2f06; */
   --secondary-color: #f6b93b;
+  --tertiary-color: #009432;
   --black-color: #000;
   --white-color: #fff;
-  --light-grey: #D3D3D3;
+  --grey: #D3D3D3;
+  --light-grey: #f5f6fa;
   --light-black: #222f3e;
 }
 /* variable section  */

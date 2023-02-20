@@ -1,0 +1,7 @@
+.single-tile{
+  display: block;
+  color: var(--white-color);
+  background-color: var(--tertiary-color);
+  padding: 10px 5px;
+  margin: 15px 0px;
+}

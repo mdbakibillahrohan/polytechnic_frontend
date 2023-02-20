@@ -1,0 +1,20 @@
+.tile{
+  display: block;
+  color: var(--white-color);
+  background-color: var(--tertiary-color);
+  padding: 10px 5px;
+  margin: 15px 0px;
+}
+
+
+.important-links ul{
+  list-style:circle;
+}
+.important-links ul li{
+  border-bottom: 1px solid var(--black-color);
+  margin: 5px 0px;
+}
+.important-links ul li a{
+  text-decoration: none;
+  color: var(--black-color);
+}

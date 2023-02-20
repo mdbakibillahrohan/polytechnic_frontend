@@ -1,0 +1,5 @@
+.news{
+  background-color: var(--light-grey);
+  padding: 15px 10px;
+  border-radius: 15px;
+}

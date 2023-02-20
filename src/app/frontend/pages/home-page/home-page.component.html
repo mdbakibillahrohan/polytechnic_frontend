@@ -1,0 +1,81 @@
+<div class="my-3">
+  <app-notice-board></app-notice-board>
+</div>
+<div class="my-3">
+  <app-news></app-news>
+</div>
+<!-- here started the tiles section  -->
+<div class="row">
+  <div *ngFor="let tile of tiles" class="col-md-6 mb-4">
+    <app-home-page-tile
+      [title]="tile.title"
+      [links]="tile.links"
+      [imageName]="tile.imageName"
+    ></app-home-page-tile>
+  </div>
+</div>
+<!-- here ended the tiles section  -->
+
+<!-- here started the video section  -->
+<div>
+  <span class="single-tile">ভিডিও ও ম্যাপ</span>
+  <div class="row">
+    <div class="col-md-6">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3651.670617706259!2d90.39740081495417!3d23.75912248458504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x3755b9611da94867%3A0x62ef50cae9649658!2sDhaka%20Polytechnic%20Institute%2C%20Dhaka%201208!3m2!1d23.7591225!2d90.39958949999999!5e0!3m2!1sen!2sbd!4v1676895186010!5m2!1sen!2sbd"
+        height="200"
+        style="border: 0; width: 100%"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="col-md-6">
+      <iframe
+        style="width: 100%"
+        height="200"
+        src="https://www.youtube.com/embed/PPnX5aiWbig"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+  <div class="row my-3">
+    <div class="col-md-4">
+      <iframe
+        style="width: 100%"
+        height="200"
+        src="https://www.youtube.com/embed/PPnX5aiWbig"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="col-md-4">
+      <iframe
+        style="width: 100%"
+        height="200"
+        src="https://www.youtube.com/embed/PPnX5aiWbig"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="col-md-4">
+      <iframe
+        style="width: 100%"
+        height="200"
+        src="https://www.youtube.com/embed/PPnX5aiWbig"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</div>
+<!-- here ended the video section  -->

@@ -1,0 +1,36 @@
+.notice-board{
+  background-color: var(--light-grey);
+  background-image: url(../../../../assets/images/bg_notice_board.png);
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.notice-board .content{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+.notice-board .content ul{
+  list-style: square;
+}
+.notice-board .content ul li{
+  margin: 7px 0px;
+  border-bottom: 1px solid var(--tertiary-color);
+}
+.notice-board .content ul li a{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.all_notice_btn{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--grey);
+  text-decoration: none;
+  color: var(--black-color);
+  padding: 10px 15px;
+  border-radius: 10px;
+}

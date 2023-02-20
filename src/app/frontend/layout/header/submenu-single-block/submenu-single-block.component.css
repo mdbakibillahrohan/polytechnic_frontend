@@ -3,5 +3,5 @@ a{
   color: var(--light-black);
 }
 a:hover{
-  background-color: var(--light-grey);
+  background-color: var(--grey);
 }

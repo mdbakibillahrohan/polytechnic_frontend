@@ -1,6 +1,7 @@
 .top{
   padding: 10px 0px;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background-color: var(--tertiary-color);
 }
 
 .carousel-section{
@@ -57,6 +58,8 @@ nav .cs-nav-item .submenu-bar{
   transition: 0.5s ease-in-out;
   border: 1px solid var(--black-color);
   border-top: none;
+  background-color: var(--white-color);
+  z-index: 999;
 }
 
 nav .cs-nav-item:hover > .submenu-bar {
